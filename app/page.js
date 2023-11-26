@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { initializeConnector } from "@web3-react/core";
-import { MetaMask } from "@web3-react/metamask";
+import { MetaMask  } from "@web3-react/metamask";
 import { ethers } from "ethers";
 import { parseUnits } from "@ethersproject/units";
 import abi from "./abi.json";
